@@ -5,6 +5,7 @@
 //  Created by Andris Lejasmeiers on 05/12/2019.
 //
 
+#if os(iOS) || os(tvOS)
 import UIKit
 
 extension UITableView {
@@ -53,3 +54,4 @@ extension UITableView {
     return cell
   }
 }
+#endif

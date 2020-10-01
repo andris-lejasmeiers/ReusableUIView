@@ -5,6 +5,7 @@
 //  Created by Andris Lejasmeiers on 05/12/2019.
 //
 
+#if os(iOS) || os(tvOS)
 import UIKit
 
 extension UICollectionView {
@@ -63,3 +64,4 @@ extension UICollectionView {
     return cell
   }
 }
+#endif
